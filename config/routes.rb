@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root to: "pages#index"
+  root to: "restaurants#index"
+
+  resources :restaurants
 end

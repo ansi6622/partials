@@ -1,0 +1,5 @@
+<hr>
+<h3 style="color: green"> <%= restaurant.name %></h3>
+<h4 style="color: purple"><%= restaurant.description %></h4>
+<%= render partial: "menu", locals: {menu: restaurant.menu} %><hr>
+
